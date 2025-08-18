@@ -1,0 +1,9 @@
+{
+  "name": "tgm-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "echo 'Run with a simple static server'",
+    "build": "echo 'Build step can be added here'"
+  }
+}
