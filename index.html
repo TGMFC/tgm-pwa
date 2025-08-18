@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Total Game Mastery </title>
+  <meta name="description" content="Total Game Mastery – Live Scores, Fixtures, and News">
+  <meta name="theme-color" content="#1a1a1a" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/png" href="/assets/icon-192.png" />
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <img src="/assets/tgm-logo.svg" alt="TGM Logo" class="logo" />
+      <h1>Total Game Mastery </h1>
+      <p class="tagline">Your Voice, Your Game, Your Community</p>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs">
+      <button class="tab active" data-tab="fixtures">Fixtures</button>
+      <button class="tab" data-tab="news">News</button>
+      <button class="tab" data-tab="rsvp">RSVP to Play</button>
+    </nav>
+
+    <!-- Fixtures Tab -->
+    <section id="fixtures" class="tab-content active">
+      <h2>Upcoming Fixtures</h2>
+      <div id="fixtures-list">
+        <!-- Loaded from fixtures.json -->
+      </div>
+    </section>
+
+    <!-- News Tab -->
+    <section id="news" class="tab-content">
+      <h2>Latest Announcements</h2>
+      <div id="announcements-list">
+        <!-- Loaded from announcements.json -->
+      </div>
+    </section>
+
+    <!-- RSVP Tab -->
+    <section id="rsvp" class="tab-content">
+      <h2>Join the Next Game</h2>
+      <p>Select your game and confirm your spot.</p>
+      <form id="rsvp-form">
+        <label for="player-name">Your Name:</label>
+        <input type="text" id="player-name" required />
+
+        <label for="game-select">Game:</label>
+        <select id="game-select" required></select>
+
+        <button type="submit">Confirm RSVP</button>
+      </form>
+      <p id="rsvp-success" class="success hidden">✅ RSVP successful! We'll send details via WhatsApp.</p>
+    </section>
+  </div>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
