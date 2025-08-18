@@ -1,20 +1,56 @@
 [
   {
-    "id": "g1",
-    "date": "25 Aug 2025",
-    "opponent": "Cape Town Kings",
-    "venue": "Green Point Stadium"
+    "date": "2025-08-19",
+    "day": "Tue",
+    "time": "18:30",
+    "home": "Edenvale",
+    "away": "Eastside United",
+    "event": "Edenvale vs Eastside United",
+    "location": "Edenvale Sports Field"
   },
   {
-    "id": "g2",
-    "date": "1 Sep 2025",
-    "opponent": "Durban Sharks",
-    "venue": "Kings Park"
+    "date": "2025-08-24",
+    "day": "Sun",
+    "time": "08:30",
+    "home": "Alberton",
+    "away": "Eastside United",
+    "event": "Alberton vs Eastside United",
+    "location": "Alberton Multi-Sport Park"
   },
   {
-    "id": "g3",
-    "date": "8 Sep 2025",
-    "opponent": "Johannesburg Bulls",
-    "venue": "FNB Stadium"
+    "date": "2025-09-14",
+    "day": "Sun",
+    "time": "08:30",
+    "home": "Eastside United",
+    "away": "Bonaero",
+    "event": "Eastside United vs Bonaero",
+    "location": "TBD – Home Ground"
+  },
+  {
+    "date": "2025-09-21",
+    "day": "Sun",
+    "time": "08:30",
+    "home": "Olympia",
+    "away": "Eastside United",
+    "event": "Olympia vs Eastside United",
+    "location": "Olympia Park"
+  },
+  {
+    "date": "2025-09-24",
+    "day": "Wed",
+    "time": "08:30",
+    "home": "Eastside United",
+    "away": "Springs Premier F.C.",
+    "event": "Eastside United vs Springs Premier F.C.",
+    "location": "TBD – Home Ground"
+  },
+  {
+    "date": "2025-09-28",
+    "day": "Sun",
+    "time": "08:30",
+    "home": "Old Bens",
+    "away": "Eastside United",
+    "event": "Old Bens vs Eastside United",
+    "location": "Old Benoni Sports Complex"
   }
 ]
